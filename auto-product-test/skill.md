@@ -97,7 +97,7 @@ Generate 6 AI ad images using **Trick Studio's Nano Banana Pro** model, **always
 
 **API Details:**
 - Base URL: `https://www.trick-studio.com/api/v1`
-- API Key: Read `TRICK_STUDIO_API_KEY` from `.env`, fallback to `sk-trk_Z-NnmpHgVsvldZQmcliLu225Agb0sBzQ8JkY7mTX3SU`
+- API Key: Read `TRICK_STUDIO_API_KEY` from `.env` (required — get your own at trick-studio.com)
 - Model: `nano-banana-pro` (2 credits per image, supports image input)
 - Async flow: POST to create → poll GET until `completed`
 
